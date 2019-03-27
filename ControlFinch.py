@@ -14,9 +14,9 @@ while True:
         if keyboard.is_pressed('s'):
                 finch.wheels(-1,-1)
         if keyboard.is_pressed('q'):
-                finch.sleep(3)
+                sleep(3)
         if keyboard.is_pressed('e'):
-                 break
+                break
                 
 finch.close()
 
